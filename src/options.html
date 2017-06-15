@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Copy Options</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+    <div class="options-wrapper">
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" id="close-popup-after-copy"> <span id="close-popup-after-copy-text"></span>
+            </label>
+        </div>
+
+        <br>
+
+        <fieldset class="form-inline" style="margin-bottom: 30px">
+            <legend style="margin-bottom: 10px" id="snippets-list-text"></legend>
+
+            <div class="add-text-group">
+                <input class="form-control input-sm" type="text" id="snippet-text" placeholder="">
+                <button type="button" class="btn btn-success btn-sm" id="add-snippet"></button>
+            </div>
+
+            <ul class="list-group" id="snippets-list"></ul>
+        </fieldset>
+    </div>
+
+    <script src="js/lib.js"></script>
+    <script src="js/options.js"></script>
+</body>
+</html>

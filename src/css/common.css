@@ -1,0 +1,73 @@
+.wrapper {
+  min-width: 300px;
+  max-height: 500px;
+}
+.wrapper .header {
+  padding: 10px 0;
+}
+.wrapper .text-list {
+  font-size: 12px;
+}
+.wrapper .text-list tr td {
+  padding: 3px 7px;
+  cursor: pointer;
+}
+.wrapper .text-list tr:first-child td {
+  border: 0;
+}
+.wrapper #copied-text {
+  display: block;
+  height: 0;
+  padding: 0;
+  border: 0;
+}
+.options-wrapper {
+  padding: 20px;
+  width: 600px;
+}
+.options-wrapper .add-text-group {
+  display: table;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.options-wrapper .add-text-group input[type=text] {
+  width: 78%;
+  display: table-cell;
+  margin-right: 2%;
+}
+.options-wrapper .add-text-group button {
+  width: 20%;
+  display: table-cell;
+}
+.options-wrapper .list-group-item {
+  padding: 5px 10px;
+  display: table;
+  width: 100%;
+  font-size: 12px;
+}
+.options-wrapper .list-group-item span {
+  display: table-cell;
+}
+.options-wrapper .list-group-item .snippet {
+  width: 80%;
+  border: 1px dotted #fff;
+  outline: none;
+}
+.options-wrapper .list-group-item .snippet[contenteditable=true] {
+  border: 1px dotted #c0c0c0;
+}
+.options-wrapper .list-group-item .actions {
+  width: 20%;
+  text-align: right;
+}
+.options-wrapper .list-group-item .actions i {
+  font-size: 12px;
+  cursor: pointer;
+}
+.options-wrapper .list-group-item .actions i.edit-snippet {
+  margin-right: 5px;
+}
+.options-wrapper .list-group-item .actions i.save-snippet {
+  display: none;
+  margin-right: 5px;
+}

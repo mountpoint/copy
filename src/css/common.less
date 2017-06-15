@@ -1,0 +1,100 @@
+body {
+
+}
+
+.wrapper {
+  min-width: 300px;
+  max-height: 500px;
+  //overflow-y: scroll;
+
+  .header {
+    padding: 10px 0;
+  }
+
+  .text-list {
+    font-size: 12px;
+
+    tr {
+      td {
+        padding: 3px 7px;
+        cursor: pointer;
+      }
+
+      &:first-child {
+        td {
+          border: 0;
+        }
+      }
+    }
+  }
+
+  #copied-text {
+    display: block;
+    height: 0;
+    padding: 0;
+    border: 0;
+  }
+}
+
+.options-wrapper {
+  padding: 20px;
+  width: 600px;
+
+  .add-text-group {
+    display: table;
+    width: 100%;
+    margin-bottom: 10px;
+
+    input[type=text] {
+      width: 78%;
+      display: table-cell;
+      margin-right: 2%;
+    }
+
+    button {
+      width: 20%;
+      display: table-cell;
+    }
+  }
+
+  .list-group-item {
+    padding: 5px 10px;
+    display: table;
+    width: 100%;
+    font-size: 12px;
+
+    span {
+      display: table-cell;
+    }
+
+    .snippet {
+      width: 80%;
+      border: 1px dotted #fff;
+      outline: none;
+
+      &[contenteditable=true] {
+        border: 1px dotted #c0c0c0;
+      }
+    }
+
+    .actions {
+      width: 20%;
+      text-align: right;
+
+      i {
+        font-size: 12px;
+        cursor: pointer;
+
+        &.edit-snippet {
+          margin-right: 5px;
+        }
+
+        &.save-snippet {
+          display: none;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+

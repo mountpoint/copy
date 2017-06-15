@@ -1,0 +1,35 @@
+{
+    "ext_name": {
+        "message": "Copy"
+    },
+    "ext_description" : {
+        "message": "Quick copying of ready text snippets to the clipboard."
+    },
+    "header_text": {
+        "message": "Click on the text to copy it"
+    },
+    "no_data_text": {
+        "message": "No data"
+    },
+    "settings_text": {
+        "message": "Settings"
+    },
+    "settings_saved": {
+        "message": "Settings was saved"
+    },
+    "add_snippet": {
+        "message": "Add"
+    },
+    "snippets_list_text": {
+        "message": "Text snippets"
+    },
+    "enter_snippet_text": {
+        "message": "Enter snippet text"
+    },
+    "save_button_text": {
+        "message": "Save"
+    },
+    "close_popup_after_copy_text": {
+        "message": "Close the popup after the copying is done"
+    }
+}
