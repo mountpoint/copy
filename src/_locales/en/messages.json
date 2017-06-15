@@ -9,7 +9,7 @@
         "message": "Click on the text to copy it"
     },
     "no_data_text": {
-        "message": "No data"
+        "message": "No data. Click <b>Settings</b>(<i class=\"glyphicon glyphicon-cog\"></i>) to add snippets."
     },
     "settings_text": {
         "message": "Settings"

@@ -1,4 +1,4 @@
-v0.1.1
+v0.1.2
 
 Available in [Chrome Web Store](https://chrome.google.com/webstore/detail/copy/ifkbbaednfbphkhgkhejjobobgdaaaoa?hl=en-US) <!-- and [Opera add-ons](https://me.javascript.in.ua) -->
 

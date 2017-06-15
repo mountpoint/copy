@@ -9,7 +9,7 @@
         "message": "Клікніть по тексту, щоб скопіювати його"
     },
     "no_data_text": {
-        "message": "Немає даних"
+        "message": "Немає даних. Перейдіть в <b>Налаштування</b>(<i class=\"glyphicon glyphicon-cog\"></i>), щоб додати сніпети."
     },
     "settings_text": {
         "message": "Налаштування"

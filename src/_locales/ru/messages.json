@@ -9,7 +9,7 @@
         "message": "Кликните по тексту, чтобы скопировать его"
     },
     "no_data_text": {
-        "message": "Нет данных"
+        "message": "Нет данных. Перейдите в <b>Настройки</b>(<i class=\"glyphicon glyphicon-cog\"></i>), чтобы добавить сниппеты."
     },
     "settings_text": {
         "message": "Настройки"
