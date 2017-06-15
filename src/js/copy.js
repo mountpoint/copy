@@ -6,7 +6,7 @@
             height = '200px',
             top = ((global.innerHeight / 2) - (parseInt(height) / 2)) + 'px',
             left = ((global.innerWidth / 2) - (parseInt(width) / 2)) + 'px',
-            style =
+            infoWrapperStyle =
                 'font-family: Arial, sans-serif;' +
                 'text-align: center;' +
                 'color: #000;' +
@@ -20,15 +20,37 @@
                 'position: fixed;' +
                 'z-index: 999999999;' +
                 'top: ' + top + ';' +
-                'left: ' + left
+                'left: ' + left,
+            headerStyle =
+                'font-size: 35px;' +
+                'color: #000;' +
+                'margin: 10px 0;' +
+                'background: #f3f3f3;' +
+                'text-align: center;' +
+                'line-height: 35px;',
+            versionStyle =
+                'color: #000;' +
+                'font-size: 14px;' +
+                'margin-bottom: 10px;' +
+                'background: #f3f3f3;' +
+                'text-align: center;',
+            poweredStyle =
+                'color: #000;' +
+                'font-size: 11px;' +
+                'background: #f3f3f3;' +
+                'text-align: center;',
+            poweredLinkStyle =
+                'color: #167ac6;' +
+                'font-size: 11px;' +
+                'text-decoration: none;'
         ;
 
         var infoWrapper =
-            '<div id="copy-info" style="' + style + '">' +
+            '<div id="copy-info" style="' + infoWrapperStyle + '">' +
                 '<img src="' + chrome.runtime.getURL('img/icon48.png') + '" alt="">' +
-                '<h1 style="font-size: 35px; margin: 10px 0; background: #f3f3f3; text-align: center; line-height: 35px;">Copy</h1>' +
-                '<p style="font-size: 14px; margin-bottom: 10px; background: #f3f3f3; text-align: center;">v' + mainifest.version + '</p>' +
-                '<p style="font-size: 11px; background: #f3f3f3; text-align: center;">Powered by <a href="mailto:thebestwebservices@gmail.com">The Best Web Services</a></p>' +
+                '<h1 style="' + headerStyle + '">Copy</h1>' +
+                '<p style="' + versionStyle + '">v' + mainifest.version + '</p>' +
+                '<p style="' + poweredStyle + '">Powered by <a href="mailto:thebestwebservices@gmail.com" style="' + poweredLinkStyle + '">The Best Web Services</a></p>' +
             '</div>'
         ;
 
