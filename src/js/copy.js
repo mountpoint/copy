@@ -28,7 +28,7 @@
                 '<img src="' + chrome.runtime.getURL('img/icon48.png') + '" alt="">' +
                 '<h1 style="font-size: 35px; margin: 10px 0; background: #f3f3f3; text-align: center; line-height: 35px;">Copy</h1>' +
                 '<p style="font-size: 14px; margin-bottom: 10px; background: #f3f3f3; text-align: center;">v' + mainifest.version + '</p>' +
-                '<p style="font-size: 11px; background: #f3f3f3; text-align: center;">Powered by <b>The Best Web Services</b></p>' +
+                '<p style="font-size: 11px; background: #f3f3f3; text-align: center;">Powered by <a href="mailto:thebestwebservices@gmail.com">The Best Web Services</a></p>' +
             '</div>'
         ;
 
