@@ -1,9 +1,5 @@
-body {
-
-}
-
 .wrapper {
-  min-width: 300px;
+  min-width: 500px;
   max-height: 500px;
 
   .header {
@@ -19,9 +15,27 @@ body {
         cursor: pointer;
       }
 
+      &:nth-child(even) {
+        td {
+          background: #ebebeb;
+        }
+      }
+
+      &:nth-child(odd) {
+        td {
+          background: #fff;
+        }
+      }
+
       &:first-child {
         td {
           border: 0;
+        }
+      }
+
+      &:hover {
+        td {
+          background: #f3efb0;
         }
       }
     }
@@ -38,7 +52,7 @@ body {
 
 .options-wrapper {
   padding: 20px;
-  width: 600px;
+  width: 800px;
 
   .add-text-group {
     display: table;

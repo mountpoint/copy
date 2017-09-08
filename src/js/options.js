@@ -168,7 +168,7 @@
     function getSnippetTemplate(snippet) {
         return  '<li class="list-group-item">' +
                     '<div class="tbl">' +
-                        '<span class="snippet" data-snippet-id="' + snippet.id + '">' + Ext.shortText(snippet.text, 150) + '</span>' +
+                        '<span class="snippet" data-snippet-id="' + snippet.id + '">' + snippet.text + '</span>' +
                         '<span class="actions">' +
                             '<i class="glyphicon glyphicon-pencil edit-snippet"></i>' +
                             '<i class="glyphicon glyphicon-remove remove-snippet"></i>' +

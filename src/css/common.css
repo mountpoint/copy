@@ -1,5 +1,5 @@
 .wrapper {
-  min-width: 300px;
+  min-width: 500px;
   max-height: 500px;
 }
 .wrapper .header {
@@ -12,8 +12,17 @@
   padding: 3px 7px;
   cursor: pointer;
 }
+.wrapper .text-list tr:nth-child(even) td {
+  background: #ebebeb;
+}
+.wrapper .text-list tr:nth-child(odd) td {
+  background: #fff;
+}
 .wrapper .text-list tr:first-child td {
   border: 0;
+}
+.wrapper .text-list tr:hover td {
+  background: #f3efb0;
 }
 .wrapper #copied-text {
   display: block;
@@ -24,7 +33,7 @@
 }
 .options-wrapper {
   padding: 20px;
-  width: 600px;
+  width: 800px;
 }
 .options-wrapper .add-text-group {
   display: table;

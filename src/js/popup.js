@@ -16,7 +16,7 @@
 
         if (snippetslen) {
             for (var i = 0; i < snippetslen; ++i) {
-                textList.insertAdjacentHTML('beforeend', '<tr><td class="item" data-snippet-id="' + snippets[i].id + '">' + Ext.shortText(snippets[i].text, 50) + '</td></tr>');
+                textList.insertAdjacentHTML('beforeend', '<tr><td class="item" data-snippet-id="' + snippets[i].id + '">' + snippets[i].text + '</td></tr>');
             }
         } else {
             textList.insertAdjacentHTML('beforeend', '<tr><td class="text-center">' + Ext.__('no_data_text') + '</td></tr>');
