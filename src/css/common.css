@@ -17,7 +17,8 @@
 }
 .wrapper #copied-text {
   display: block;
-  height: 0;
+  height: 1px;
+  opacity: 0;
   padding: 0;
   border: 0;
 }
@@ -30,44 +31,56 @@
   width: 100%;
   margin-bottom: 10px;
 }
-.options-wrapper .add-text-group input[type=text] {
-  width: 78%;
-  display: table-cell;
-  margin-right: 2%;
+.options-wrapper .add-text-group textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  resize: vertical;
 }
 .options-wrapper .add-text-group button {
   width: 20%;
   display: table-cell;
+  margin-bottom: 20px;
 }
 .options-wrapper .list-group-item {
   padding: 5px 10px;
+}
+.options-wrapper .list-group-item .tbl {
   display: table;
   width: 100%;
   font-size: 12px;
 }
-.options-wrapper .list-group-item span {
+.options-wrapper .list-group-item .tbl span {
   display: table-cell;
 }
-.options-wrapper .list-group-item .snippet {
+.options-wrapper .list-group-item .tbl .snippet {
   width: 80%;
   border: 1px dotted #fff;
   outline: none;
 }
-.options-wrapper .list-group-item .snippet[contenteditable=true] {
+.options-wrapper .list-group-item .tbl .snippet[contenteditable=true] {
   border: 1px dotted #c0c0c0;
 }
-.options-wrapper .list-group-item .actions {
+.options-wrapper .list-group-item .tbl .actions {
   width: 20%;
   text-align: right;
 }
-.options-wrapper .list-group-item .actions i {
+.options-wrapper .list-group-item .tbl .actions i {
   font-size: 12px;
   cursor: pointer;
 }
-.options-wrapper .list-group-item .actions i.edit-snippet {
+.options-wrapper .list-group-item .tbl .actions i.edit-snippet {
   margin-right: 5px;
 }
-.options-wrapper .list-group-item .actions i.save-snippet {
+.options-wrapper .list-group-item .tbl .actions i.save-snippet {
   display: none;
   margin-right: 5px;
+}
+.options-wrapper .list-group-item .tbl .actions i.cancel-snippet {
+  display: none;
+}
+.options-wrapper .list-group-item textarea {
+  display: none;
+  width: 100%;
+  margin-top: 5px;
+  resize: vertical;
 }

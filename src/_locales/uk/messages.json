@@ -20,6 +20,9 @@
     "add_snippet": {
         "message": "Додати"
     },
+    "confirm_delete_snippet_text": {
+        "message": "Ви впевнені, що хочете видалити цей сніпет?"
+    },
     "snippets_list_text": {
         "message": "Тексти"
     },

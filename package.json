@@ -1,6 +1,6 @@
 {
     "name": "copy",
-    "version": "0.1.4",
+    "version": "0.2.0",
     "description": "Quick copying of ready text snippets to the clipboard",
     "main": "index.js",
     "scripts": {

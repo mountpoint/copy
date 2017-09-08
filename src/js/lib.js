@@ -161,5 +161,31 @@ var Ext = {
      */
     uniqId: function() {
         return Math.random().toString(36).substr(2);
+    },
+
+    /**
+     * Copy selected text to the clipboard
+     */
+    copy: function() {
+        try {
+            document.execCommand("copy");  // Security exception may be thrown by some browsers.
+        } catch (e) {
+            console.warn("Copy to clipboard failed.", e);
+        }
+    },
+
+    /**
+     * Trims the text
+     *
+     * @param text
+     * @param length
+     * @param withoutEllipsis Show trimmed text without ellipsis (...)
+     */
+    shortText: function(text, length, withoutEllipsis) {
+        if (text.length <= length) {
+            return text;
+        }
+
+        return text.substr(0, length) + (withoutEllipsis ? '' : '...');
     }
 };

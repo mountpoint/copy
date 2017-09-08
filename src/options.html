@@ -16,16 +16,14 @@
 
         <br>
 
-        <fieldset class="form-inline" style="margin-bottom: 30px">
-            <legend style="margin-bottom: 10px" id="snippets-list-text"></legend>
+        <div class="add-text-group">
+            <textarea class="form-control" id="snippet-text" rows="4"></textarea>
+            <button type="button" class="btn btn-success btn-sm" id="add-snippet"></button>
+        </div>
 
-            <div class="add-text-group">
-                <input class="form-control input-sm" type="text" id="snippet-text" placeholder="">
-                <button type="button" class="btn btn-success btn-sm" id="add-snippet"></button>
-            </div>
+        <h4 style="margin-bottom: 10px" id="snippets-list-text"></h4>
+        <ul class="list-group" id="snippets-list"></ul>
 
-            <ul class="list-group" id="snippets-list"></ul>
-        </fieldset>
     </div>
 
     <script src="js/lib.js"></script>

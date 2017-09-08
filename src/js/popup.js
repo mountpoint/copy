@@ -16,7 +16,7 @@
 
         if (snippetslen) {
             for (var i = 0; i < snippetslen; ++i) {
-                textList.insertAdjacentHTML('beforeend', '<tr><td class="item">' + snippets[i].text + '</td></tr>');
+                textList.insertAdjacentHTML('beforeend', '<tr><td class="item" data-snippet-id="' + snippets[i].id + '">' + Ext.shortText(snippets[i].text, 50) + '</td></tr>');
             }
         } else {
             textList.insertAdjacentHTML('beforeend', '<tr><td class="text-center">' + Ext.__('no_data_text') + '</td></tr>');
@@ -27,13 +27,26 @@
         var el = e.target;
 
         if (el.classList.contains('item')) {
-            copiedText.value = el.textContent;
-            copiedText.select();
-            doc.execCommand('copy');
+            chrome.storage.sync.get('copy', function(storage) {
+                var
+                    snippets = storage.copy.snippets,
+                    snippetId = el.dataset.snippetId
+                ;
 
-            if (closePopupAfterCopy) {
-                global.close();
-            }
+                for (var i = 0, snippetslen = snippets.length; i < snippetslen; ++i) {
+                    if (snippets[i].id == snippetId) {
+                        El.text(copiedText, snippets[i].text);
+                        break;
+                    }
+                }
+
+                copiedText.select();
+                Ext.copy();
+
+                if (closePopupAfterCopy) {
+                    global.close();
+                }
+            });
         }
 
         if (el.classList.contains('info-btn') || el.parentNode.classList.contains('info-btn')) {
