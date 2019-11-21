@@ -1,38 +1,38 @@
 {
-    "ext_name": {
-        "message": "Copy"
-    },
-    "ext_description" : {
-        "message": "Швидке копіювання підготовлених текстів в буфер обміну."
-    },
-    "header_text": {
-        "message": "Клікніть по тексту, щоб скопіювати його"
-    },
-    "no_data_text": {
-        "message": "Немає даних. Перейдіть в <b>Налаштування</b>(<i class=\"glyphicon glyphicon-cog\"></i>), щоб додати сніпети."
-    },
-    "settings_text": {
-        "message": "Налаштування"
-    },
-    "settings_saved": {
-        "message": "Налаштування збережено"
-    },
-    "add_snippet": {
-        "message": "Додати"
-    },
-    "confirm_delete_snippet_text": {
-        "message": "Ви впевнені, що хочете видалити цей сніпет?"
-    },
-    "snippets_list_text": {
-        "message": "Тексти"
-    },
-    "enter_snippet_text": {
-        "message": "Введіть текст"
-    },
-    "save_button_text": {
-        "message": "Зберегти"
-    },
-    "close_popup_after_copy_text": {
-        "message": "Закрити попап після копіювання"
-    }
+  "ext_name": {
+    "message": "Copy"
+  },
+  "ext_description": {
+    "message": "Швидке копіювання підготовлених текстів в буфер обміну."
+  },
+  "header_text": {
+    "message": "Клікніть по тексту, щоб скопіювати його"
+  },
+  "no_data_text": {
+    "message": "Немає даних. Перейдіть в <b>Налаштування</b>(<i class=\"glyphicon glyphicon-cog\"></i>), щоб додати сніпети."
+  },
+  "settings_text": {
+    "message": "Налаштування"
+  },
+  "settings_saved": {
+    "message": "Налаштування збережено"
+  },
+  "add_snippet": {
+    "message": "Додати"
+  },
+  "confirm_delete_snippet_text": {
+    "message": "Ви впевнені, що хочете видалити цей сніпет?"
+  },
+  "snippets_list_text": {
+    "message": "Тексти"
+  },
+  "enter_snippet_text": {
+    "message": "Введіть текст"
+  },
+  "save_button_text": {
+    "message": "Зберегти"
+  },
+  "close_popup_after_copy_text": {
+    "message": "Закрити попап після копіювання"
+  }
 }

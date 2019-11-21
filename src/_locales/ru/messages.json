@@ -1,38 +1,38 @@
 {
-    "ext_name": {
-        "message": "Copy"
-    },
-    "ext_description" : {
-        "message": "Быстрое копирование заготовленных текстов в буфер обмена."
-    },
-    "header_text": {
-        "message": "Кликните по тексту, чтобы скопировать его"
-    },
-    "no_data_text": {
-        "message": "Нет данных. Перейдите в <b>Настройки</b>(<i class=\"glyphicon glyphicon-cog\"></i>), чтобы добавить сниппеты."
-    },
-    "settings_text": {
-        "message": "Настройки"
-    },
-    "settings_saved": {
-        "message": "Настройки сохранены"
-    },
-    "add_snippet": {
-        "message": "Добавить"
-    },
-    "confirm_delete_snippet_text": {
-        "message": "Вы уверены, что хотите удалить этот сниппет?"
-    },
-    "snippets_list_text": {
-        "message": "Тексты"
-    },
-    "enter_snippet_text": {
-        "message": "Введите текст"
-    },
-    "save_button_text": {
-        "message": "Сохранить"
-    },
-    "close_popup_after_copy_text": {
-        "message": "Закрыть попап после копирования"
-    }
+  "ext_name": {
+    "message": "Copy"
+  },
+  "ext_description": {
+    "message": "Быстрое копирование заготовленных текстов в буфер обмена."
+  },
+  "header_text": {
+    "message": "Кликните по тексту, чтобы скопировать его"
+  },
+  "no_data_text": {
+    "message": "Нет данных. Перейдите в <b>Настройки</b>(<i class=\"glyphicon glyphicon-cog\"></i>), чтобы добавить сниппеты."
+  },
+  "settings_text": {
+    "message": "Настройки"
+  },
+  "settings_saved": {
+    "message": "Настройки сохранены"
+  },
+  "add_snippet": {
+    "message": "Добавить"
+  },
+  "confirm_delete_snippet_text": {
+    "message": "Вы уверены, что хотите удалить этот сниппет?"
+  },
+  "snippets_list_text": {
+    "message": "Тексты"
+  },
+  "enter_snippet_text": {
+    "message": "Введите текст"
+  },
+  "save_button_text": {
+    "message": "Сохранить"
+  },
+  "close_popup_after_copy_text": {
+    "message": "Закрыть попап после копирования"
+  }
 }

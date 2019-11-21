@@ -1,27 +1,27 @@
 {
-    "name": "copy",
-    "version": "0.2.0",
-    "description": "Quick copying of ready text snippets to the clipboard",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/mountpoint/copy.git"
-    },
-    "author": "mountpoint",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/mountpoint/copy/issues"
-    },
-    "homepage": "https://github.com/mountpoint/copy#readme",
-    "devDependencies": {
-        "del": "^2.2.2",
-        "gulp": "^3.9.1",
-        "gulp-debug": "^2.1.2",
-        "require-dir": "^0.3.1",
-        "run-sequence": "^1.2.2"
-    },
-    "dependencies": {}
+  "name": "copy",
+  "version": "0.2.0",
+  "description": "Quick copying of ready text snippets to the clipboard",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mountpoint/copy.git"
+  },
+  "author": "mountpoint",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mountpoint/copy/issues"
+  },
+  "homepage": "https://github.com/mountpoint/copy#readme",
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-debug": "^4.0.0",
+    "require-dir": "^1.2.0"
+  },
+  "dependencies": {}
 }
